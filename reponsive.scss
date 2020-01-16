@@ -1,0 +1,388 @@
+@media only screen and (max-width: 768px) {
+
+    footer,
+    .today,
+    .member,
+    .list-content,
+     {
+        display: none;
+    }
+
+    .today-mb,
+    .list-content-mb,
+    .footer-mb {
+        display: block;
+    }
+
+    .banner {
+        width: 100vw;
+        height: 425px;
+        padding: 0 3%;
+
+        background: {
+            image: url(./images/banner-tb.png);
+            repeat: no-repeat;
+            position: center center;
+            size: cover;
+        }
+    }
+
+    .header-top-right {
+        padding-top: 25px;
+
+        .sign-in {
+            color: #8bc34a;
+            border-radius: 100px;
+            border: 2px solid #8bc34a;
+            letter-spacing: 1px;
+        }
+    }
+
+    .logo {
+        margin-top: 30px;
+
+        img {
+            width: 144px;
+            height: 43px;
+        }
+    }
+
+    .header-icon-box {
+        margin-top: 30px;
+
+        .header-icon {
+            width: 100px;
+
+            p,
+            span {
+                font-size: 24px;
+                font-weight: lighter;
+            }
+        }
+    }
+
+    .text-header-mb {
+        font-size: 12px;
+        // padding-bottom: 15px;
+    }
+
+    .start-now {
+        height: 40px;
+        width: 144px;
+
+        span {
+            font-size: 14px;
+            letter-spacing: 1.17px;
+            line-height: 28px;
+        }
+    }
+
+    .ti-icon-mb {
+        font-size: 30px;
+    }
+
+     .today-mb {
+        padding: 25px 15px;
+
+        .title {
+
+            p {
+                font-size: 36px;
+            }
+
+        }
+
+        .italic-text {
+            p {
+                font-size: 14px;
+            }
+        }
+
+        .text-tb {
+            font-size: 13px;
+        }
+
+        .image {
+            img {
+                height: 238px;
+                width: 100%;
+            }
+        }
+
+        .im {
+            width: 100%;
+        }
+    }
+
+    .box-shadow {
+        box-shadow: 0 4px 8px #888888;
+    }
+
+    .text-member {
+        font-size: 13px;
+        height: 72px;
+        overflow: hidden;
+    }
+
+    .our-customer {
+        background-image: url(./images/our-customer-mb.png);
+        padding: 0 2%;
+        repeat: no-repeat;
+
+        .list-customer {
+
+            padding: 0 2.5vw;
+            .one-customer {
+                padding: 0 5%;
+            }
+        }
+
+
+    }
+
+
+    .para-oc {
+        font-size: 14px;
+    }
+
+    .footer-mb {
+        padding: 24px 15px;
+        background-color: #39474e;
+
+        img {
+            height: 29px;
+            width: 96px;
+        }
+
+        .footer-header {
+            p {
+                color: white;
+                font-size: 12px;
+                color: #8bc34a
+            }
+
+            a {
+                color: white;
+                font-size: 10px;
+            }
+        }
+
+        .footer-icon {
+            width: 100px;
+
+            i {
+                color: #8bc34a;
+                font-size: 10px;
+            }
+        }
+
+        .footer-end {
+            margin-top: 30px;
+
+            a {
+                text-decoration: none;
+                color: white;
+                font-size: 10px;
+                letter-spacing: -0.02;
+            }
+
+            p {
+                color: #8bc34a;
+                font-size: 10px;
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 576px) {
+
+    footer,
+    .today,
+    .member,
+    .list-content,
+    .customer-mb {
+        display: none;
+    }
+
+    .today-mb,
+    .list-content-mb,
+    .footer-mb {
+        display: block;
+    }
+
+    .banner {
+        width: 100vw;
+        height: 266px;
+        padding: 0 2%;
+
+        background: {
+            image: url(./images/banner.png);
+            repeat: no-repeat;
+            position: center center;
+            size: cover;
+        }
+    }
+
+    .header-top-right {
+        padding-top: 10px;
+
+        .sign-in {
+            color: #8bc34a;
+            border-radius: 100px;
+            border: 2px solid #8bc34a;
+            letter-spacing: 1px;
+        }
+    }
+
+    .logo {
+        margin-top: 18px;
+
+        img {
+            width: 96px;
+            height: 29px;
+        }
+    }
+
+    .header-icon-box {
+        margin-top: 20px;
+
+        .header-icon {
+            width: 100px;
+
+            p,
+            span {
+                font-size: 18px;
+                font-weight: lighter;
+            }
+        }
+    }
+
+    .text-header-mb {
+        font-size: 9px;
+    }
+
+    .start-now {
+        height: 40px;
+        width: 144px;
+
+        span {
+            font-size: 14px;
+            letter-spacing: 1.17px;
+            line-height: 28px;
+        }
+    }
+
+    .ti-icon-mb {
+        font-size: 20px;
+    }
+
+    .today-mb {
+
+        padding: 25px 0;
+
+        .title {
+
+            p {
+                font-size: 24px;
+            }
+
+        }
+
+        .italic-text {
+            p {
+                font-size: 13px;
+            }
+        }
+
+        .image {
+            img {
+                height: 308px;
+                width: 100%;
+            }
+        }
+
+        .im {
+            width: 100%;
+        }
+    }
+
+    .box-shadow {
+        box-shadow: 0 4px 8px #888888;
+    }
+
+    .text-member {
+
+        height: 72px;
+        overflow: hidden;
+    }
+
+    .our-customer {
+        background-image: url(./images/our-customer-mb.png);
+        padding: 0 2%;
+        repeat: no-repeat;
+
+        .list-customer {
+
+            padding: 0 2.5vw;
+            .one-customer {
+                padding: 0 5%;
+            }
+        }
+
+
+    }
+
+
+    .para-oc {
+        font-size: 14px;
+    }
+
+    .footer-mb {
+        padding: 24px 0;
+        background-color: #39474e;
+
+        img {
+            height: 29px;
+            width: 96px;
+        }
+
+        .footer-header {
+            p {
+                color: white;
+                font-size: 12px;
+                color: #8bc34a
+            }
+
+            a {
+                color: white;
+                font-size: 10px;
+            }
+        }
+
+        .footer-icon {
+            width: 100px;
+
+            i {
+                color: #8bc34a;
+                font-size: 10px;
+            }
+        }
+
+        .footer-end {
+            margin-top: 30px;
+
+            a {
+                text-decoration: none;
+                color: white;
+                font-size: 10px;
+                letter-spacing: -0.02;
+            }
+
+            p {
+                color: #8bc34a;
+                font-size: 10px;
+            }
+        }
+    }
+}
