@@ -180,9 +180,12 @@ body {
   height: 371px;
 }
 .member .para {
-  height: 36px;
   overflow: hidden;
-  font-size: 0.7vw;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  text-align: justify;
+  font-size: 0.677vw;
 }
 
 .shadow-bottom {

@@ -198,7 +198,7 @@
 }
 
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 480px) {
 
     footer,
     .today,
@@ -384,11 +384,12 @@
         }
 
         .text-oc-block {
+            flex-direction: column;
             padding: 0 5vw;
             height: 272px;
 
             i {
-                font-size: 62px;
+                font-size: 48px;
             }
 
             p {
@@ -400,8 +401,20 @@
             font-size: 14px;
         }
 
-        .ti-quote-right {
-            padding-top: 180px;
+        .ti-6 {
+            margin-right: 100%;
+        }
+
+        .ti-9 {
+            padding-bottom: 12px;
+            padding-left: 86%;
+        }
+
+        .text-69 {
+
+            p {
+                margin-bottom: 0;
+            }
         }
     }
 

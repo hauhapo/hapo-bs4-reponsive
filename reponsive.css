@@ -159,7 +159,7 @@
     padding: 38px 30px;
   }
 }
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 480px) {
   footer,
 .today,
 .member,
@@ -310,11 +310,12 @@
     padding: 0 4%;
   }
   .our-customer .text-oc-block {
+    flex-direction: column;
     padding: 0 5vw;
     height: 272px;
   }
   .our-customer .text-oc-block i {
-    font-size: 62px;
+    font-size: 48px;
   }
   .our-customer .text-oc-block p {
     padding: 0;
@@ -322,8 +323,15 @@
   .our-customer .para-oc {
     font-size: 14px;
   }
-  .our-customer .ti-quote-right {
-    padding-top: 180px;
+  .our-customer .ti-6 {
+    margin-right: 100%;
+  }
+  .our-customer .ti-9 {
+    padding-bottom: 12px;
+    padding-left: 86%;
+  }
+  .our-customer .text-69 p {
+    margin-bottom: 0;
   }
 
   .footer-mb {
