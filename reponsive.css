@@ -1,21 +1,32 @@
-@media only screen and (max-width: 1920x) {
+@media only screen and (max-width: 768px) {
   footer,
 .today,
 .member,
-.list-content {
+.list-content-mb {
     display: none;
   }
 
-  .today-mb,
-.list-content-mb,
-.footer-mb {
+  footer,
+.today-mb,
+.list-content {
     display: block;
+  }
+
+  .plr {
+    padding: 0 30px;
+  }
+
+  .ti-color {
+    font-size: 13px;
+  }
+
+  .ti-icon {
+    font-size: 26px;
   }
 
   .banner {
     width: 100vw;
     height: 425px;
-    padding: 0 3%;
     background-image: url(./images/banner-tb.png);
     background-repeat: no-repeat;
     background-position: center center;
@@ -23,7 +34,7 @@
   }
 
   .header-top-right {
-    padding-top: 25px;
+    padding: 2% 2%;
   }
   .header-top-right .sign-in {
     color: #8bc34a;
@@ -52,10 +63,6 @@
     font-weight: lighter;
   }
 
-  .text-header-mb {
-    font-size: 12px;
-  }
-
   .start-now {
     height: 40px;
     width: 144px;
@@ -66,12 +73,26 @@
     line-height: 28px;
   }
 
-  .ti-icon-mb {
-    font-size: 30px;
+  .text-header-mb {
+    font-size: 12px;
+    padding-bottom: 15px;
+  }
+
+  .st-padding {
+    padding-top: 30px;
+  }
+  .st-padding .start-now {
+    height: 40px;
+    width: 144px;
+  }
+  .st-padding .start-now span {
+    font-size: 14px;
+    letter-spacing: 1.17px;
+    line-height: 28px;
   }
 
   .today-mb {
-    padding: 25px 15px;
+    padding: 50px 15px;
   }
   .today-mb .title p {
     font-size: 36px;
@@ -81,6 +102,7 @@
   }
   .today-mb .text-tb {
     font-size: 13px;
+    line-height: 20px;
   }
   .today-mb .image img {
     height: 238px;
@@ -96,7 +118,7 @@
 
   .text-member {
     font-size: 13px;
-    height: 72px;
+    height: 60px;
     overflow: hidden;
   }
 
@@ -105,53 +127,36 @@
     padding: 0 2%;
     repeat: no-repeat;
   }
+  .our-customer .oc-title {
+    font-size: 36px;
+    letter-spacing: -0.09px;
+    padding-top: 25px;
+  }
   .our-customer .list-customer {
     padding: 0 2.5vw;
   }
   .our-customer .list-customer .one-customer {
-    padding: 0 5%;
+    padding: 0 2.9%;
   }
-
-  .para-oc {
+  .our-customer .text-oc-block {
+    padding: 0 5vw;
+    height: 222px;
+  }
+  .our-customer .text-oc-block i {
+    font-size: 62px;
+  }
+  .our-customer .text-oc-block p {
+    padding: 0;
+  }
+  .our-customer .para-oc {
     font-size: 14px;
   }
+  .our-customer .ti-quote-right {
+    padding-top: 124px;
+  }
 
-  .footer-mb {
-    padding: 24px 15px;
-    background-color: #39474e;
-  }
-  .footer-mb img {
-    height: 29px;
-    width: 96px;
-  }
-  .footer-mb .footer-header p {
-    color: white;
-    font-size: 12px;
-    color: #8bc34a;
-  }
-  .footer-mb .footer-header a {
-    color: white;
-    font-size: 10px;
-  }
-  .footer-mb .footer-icon {
-    width: 100px;
-  }
-  .footer-mb .footer-icon i {
-    color: #8bc34a;
-    font-size: 10px;
-  }
-  .footer-mb .footer-end {
-    margin-top: 30px;
-  }
-  .footer-mb .footer-end a {
-    text-decoration: none;
-    color: white;
-    font-size: 10px;
-    letter-spacing: -0.02;
-  }
-  .footer-mb .footer-end p {
-    color: #8bc34a;
-    font-size: 10px;
+  footer {
+    padding: 38px 30px;
   }
 }
 @media only screen and (max-width: 576px) {
@@ -169,28 +174,38 @@
     display: block;
   }
 
+  .ti-color {
+    font-size: 13px;
+  }
+
+  .ti-icon {
+    font-size: 16px;
+  }
+
   .banner {
     width: 100vw;
     height: 266px;
     padding: 0 2%;
-    background-image: url(./images/banner.png);
-    background-repeat: no-repeat;
-    background-position: center center;
+    background-image: url(./images/banner-mb.png);
     background-size: cover;
   }
 
   .header-top-right {
-    padding-top: 10px;
+    padding: 4% 2% 0 0;
   }
   .header-top-right .sign-in {
+    font-size: 12px;
     color: #8bc34a;
     border-radius: 100px;
     border: 2px solid #8bc34a;
     letter-spacing: 1px;
   }
+  .header-top-right .about-us {
+    font-size: 12px;
+  }
 
   .logo {
-    margin-top: 18px;
+    margin-top: 0px;
   }
   .logo img {
     width: 96px;
@@ -198,7 +213,7 @@
   }
 
   .header-icon-box {
-    margin-top: 20px;
+    margin-top: 17px;
   }
   .header-icon-box .header-icon {
     width: 100px;
@@ -209,26 +224,39 @@
     font-weight: lighter;
   }
 
-  .text-header-mb {
-    font-size: 9px;
+  .st-padding {
+    padding-top: 0;
   }
-
-  .start-now {
+  .st-padding .start-now {
     height: 40px;
     width: 144px;
   }
-  .start-now span {
+  .st-padding .start-now span {
     font-size: 14px;
     letter-spacing: 1.17px;
     line-height: 28px;
   }
 
-  .ti-icon-mb {
-    font-size: 20px;
+  .text-header-mb {
+    font-size: 12px;
+    padding-bottom: 0px;
+  }
+
+  .st-padding {
+    padding-top: 0px;
+  }
+  .st-padding .start-now {
+    height: 40px;
+    width: 144px;
+  }
+  .st-padding .start-now span {
+    font-size: 14px;
+    letter-spacing: 1.17px;
+    line-height: 28px;
   }
 
   .today-mb {
-    padding: 25px 0;
+    padding: 25px 15px;
   }
   .today-mb .title p {
     font-size: 24px;
@@ -236,12 +264,24 @@
   .today-mb .italic-text p {
     font-size: 13px;
   }
+  .today-mb .text-tb {
+    letter-spacing: 0.7px;
+  }
   .today-mb .image img {
     height: 308px;
     width: 100%;
+    margin-bottom: 20px;
   }
   .today-mb .im {
     width: 100%;
+  }
+
+  .carousel-indicators {
+    margin-top: 15px;
+  }
+
+  .dot-mb {
+    margin-bottom: 50px;
   }
 
   .box-shadow {
@@ -249,33 +289,53 @@
   }
 
   .text-member {
-    height: 72px;
+    height: 60px;
     overflow: hidden;
   }
 
   .our-customer {
-    background-image: url(./images/our-customer-mb.png);
+    background-image: url(./images/our-customer-tb.png);
     padding: 0 2%;
     repeat: no-repeat;
+  }
+  .our-customer .oc-title {
+    font-size: 24px;
+    letter-spacing: -0.09px;
+    padding-top: 25px;
   }
   .our-customer .list-customer {
     padding: 0 2.5vw;
   }
   .our-customer .list-customer .one-customer {
-    padding: 0 5%;
+    padding: 0 4%;
   }
-
-  .para-oc {
+  .our-customer .text-oc-block {
+    padding: 0 5vw;
+    height: 272px;
+  }
+  .our-customer .text-oc-block i {
+    font-size: 62px;
+  }
+  .our-customer .text-oc-block p {
+    padding: 0;
+  }
+  .our-customer .para-oc {
     font-size: 14px;
+  }
+  .our-customer .ti-quote-right {
+    padding-top: 180px;
   }
 
   .footer-mb {
-    padding: 24px 0;
+    padding: 20px 15px;
     background-color: #39474e;
   }
   .footer-mb img {
-    height: 29px;
-    width: 96px;
+    height: 19px;
+    width: 91px;
+  }
+  .footer-mb .footer-header {
+    padding-top: 20px;
   }
   .footer-mb .footer-header p {
     color: white;
@@ -294,7 +354,7 @@
     font-size: 10px;
   }
   .footer-mb .footer-end {
-    margin-top: 30px;
+    margin-top: 20px;
   }
   .footer-mb .footer-end a {
     text-decoration: none;
@@ -302,7 +362,7 @@
     font-size: 10px;
     letter-spacing: -0.02;
   }
-  .footer-mb .footer-end p {
+  .footer-mb .footer-end span {
     color: #8bc34a;
     font-size: 10px;
   }
