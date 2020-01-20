@@ -47,11 +47,12 @@
             border-radius: 100px;
             border: 2px solid #8bc34a;
             letter-spacing: 1px;
+
         }
     }
 
     .logo {
-        margin-top: 30px;
+        margin-top: 25px;
 
         img {
             width: 144px;
@@ -63,7 +64,7 @@
         margin-top: 30px;
 
         .header-icon {
-            width: 100px;
+            width: 155px;
 
             p,
             span {
@@ -86,7 +87,8 @@
 
     .text-header-mb {
         font-size: 12px;
-        padding-bottom: 15px;
+       
+        margin-top: 2px;
     }
 
     .st-padding {
@@ -238,7 +240,7 @@
     }
 
     .header-top-right {
-        padding: 4% 2% 0 0;
+        padding: 15px 8px 0 23px;
 
         .about-us {
             span {
@@ -260,7 +262,7 @@
     }
 
     .logo {
-        margin-top: 0px;
+        margin-top: 8px;
 
         img {
             width: 96px;
@@ -269,15 +271,16 @@
     }
 
     .header-icon-box {
-        margin-top: 17px;
+        margin-top: 22px;
 
         .header-icon {
-            width: 100px;
+            width: 125px;
 
             p,
             span {
-                font-size: 24px;
+                font-size: 18px;
                 font-weight: lighter;
+                margin-bottom: 8px;
             }
         }
     }
@@ -386,8 +389,8 @@
             padding-top: 25px;
         }
 
-        .dot-mid {
-            margin: 0 20px;
+        .dot-space {
+            margin: 0 23px;
         }
 
         .dot {
@@ -406,7 +409,7 @@
         .text-oc-block {
             flex-direction: column;
             padding: 0 5vw;
-            height: 272px;
+            height: 240px;
 
             i {
                 font-size: 48px;
@@ -414,6 +417,8 @@
 
             p {
                 padding: 0;
+                margin-bottom: 0px;
+                opacity: 60%;
             }
 
             .para-oc {
@@ -424,27 +429,11 @@
                 margin-right: 100%;
             }
 
-            // .ti-9 {
-            //     padding-bottom: 12px ;
-            //     padding-left: 88%;
-            // }
-
             .ti-9 {
                 padding: 0;
                 padding-left: 88%;
             }
-
-            .text-69 {
-
-                p {
-                    margin-bottom: 0;
-                    opacity: 60%;
-                }
-            }
-
         }
-
-
     }
 
     .footer-mb {

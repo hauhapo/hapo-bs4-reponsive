@@ -37,22 +37,38 @@ body {
 .header-top-right {
   padding-top: 41px;
 }
+.header-top-right .about-us {
+  margin-right: 26px;
+}
+.header-top-right .about-us span {
+  font-size: 12px;
+}
 .header-top-right .sign-in {
   color: #8bc34a;
   border-radius: 100px;
   border: 2px solid #8bc34a;
   letter-spacing: 1px;
+  height: 36px;
+  width: 82px;
+  line-height: 18px;
+}
+.header-top-right .sign-in span {
+  font-size: 12px;
 }
 
 .logo {
   margin-top: 165px;
+}
+.logo img {
+  width: 256px;
+  height: 77px;
 }
 
 .header-icon-box {
   margin-top: 48px;
 }
 .header-icon-box .header-icon {
-  width: 200px;
+  width: 333px;
 }
 .header-icon-box .header-icon p {
   font-size: 36px;
@@ -64,7 +80,9 @@ body {
 }
 
 .text-header-mb {
-  padding-bottom: 55px;
+  padding-bottom: 18px;
+  font-size: 18px;
+  margin-top: 37px;
 }
 
 .start-now {
@@ -123,7 +141,8 @@ body {
 }
 
 .ti-icon {
-  font-size: 30px;
+  font-size: 36px;
+  margin-right: 14px;
 }
 
 .bg-slide {
@@ -161,7 +180,7 @@ body {
   width: 43px;
   height: 43px;
   background-color: #7cb342;
-  margin-top: -18px;
+  margin-top: -24px;
 }
 .small-circle span {
   font-size: 24px;
@@ -170,6 +189,7 @@ body {
 .ti-color {
   color: #8bc34a;
   font-size: 18px;
+  margin-right: 18px;
 }
 
 .member {
@@ -185,7 +205,13 @@ body {
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   text-align: justify;
-  font-size: 0.677vw;
+  font-size: 0.635vw;
+  align-item: center;
+}
+
+.mem-img {
+  width: 497px !important;
+  height: 388px !important;
 }
 
 .shadow-bottom {
@@ -201,9 +227,22 @@ body {
   font-size: 48px;
   letter-spacing: -0.09px;
 }
+.our-customer .dot {
+  margin-bottom: 30px;
+}
+.our-customer .dot-space {
+  margin: 0 22px;
+}
 
 .one-customer {
+  padding: 5px 0;
   font-size: 13px;
+}
+.one-customer :hover {
+  transform: scale(1.1, 1.1);
+}
+.one-customer p {
+  margin-top: 16px;
 }
 
 .text-oc-block {
@@ -215,12 +254,10 @@ body {
 }
 .text-oc-block p {
   padding: 0 1.5vw;
+  color: white;
 }
 .text-oc-block .ti-9 {
   padding-top: 100px;
-}
-.text-oc-block .text-69 p {
-  margin-bottom: 0;
 }
 
 .lr {
@@ -239,10 +276,6 @@ body {
   background-color: white;
 }
 
-.dot {
-  margin-bottom: 30px;
-}
-
 footer {
   padding: 45px 20.3%;
   background-color: #39474e;
@@ -255,7 +288,7 @@ footer .footer-block p {
   color: white;
   font-size: 10px;
   margin-bottom: 0;
-  padding-top: 50px;
+  padding-top: 5em;
 }
 footer .footer-block span {
   color: #8bc34a;

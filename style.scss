@@ -40,23 +40,43 @@ body {
 .header-top-right {
     padding-top: 41px;
 
+    .about-us {
+        margin-right: 26px;
+
+        span {
+            font-size: 12px;
+        }
+    }
+
     .sign-in {
         color: #8bc34a;
         border-radius: 100px;
         border: 2px solid #8bc34a;
         letter-spacing: 1px;
+        height: 36px;
+        width: 82px;
+        line-height: 18px;
+
+        span {
+            font-size: 12px;
+        }
     }
 }
 
 .logo {
     margin-top: 165px;
+
+    img {
+        width: 256px;
+        height: 77px;
+    }
 }
 
 .header-icon-box {
     margin-top: 48px;
 
     .header-icon {
-        width: 200px;
+        width: 333px;
 
         p {
             font-size: 36px;
@@ -71,7 +91,9 @@ body {
 }
 
 .text-header-mb {
-    padding-bottom: 55px;
+    padding-bottom: 18px;
+    font-size: 18px;
+    margin-top: 37px;
 }
 
 .start-now {
@@ -136,7 +158,8 @@ body {
 }
 
 .ti-icon {
-    font-size: 30px;
+    font-size: 36px;
+    margin-right: 14px;
 }
 
 // ======================end today===========================  
@@ -177,7 +200,7 @@ body {
     width: 43px;
     height: 43px;
     background-color: #7cb342;
-    margin-top: -18px;
+    margin-top: -24px;
 
     span {
         font-size: 24px;
@@ -188,6 +211,7 @@ body {
 .ti-color {
     color: #8bc34a;
     font-size: 18px;
+    margin-right: 18px;
 }
 
 // ================end member==================================
@@ -205,8 +229,15 @@ body {
         -webkit-line-clamp: 2;
         -webkit-box-orient: vertical;
         text-align: justify;
-        font-size: 0.677vw;
+        font-size: 0.635vw;
+        align-item: center;
     }
+}
+
+
+.mem-img {
+    width: 497px !important;
+    height: 388px !important;
 }
 
 //========================end member=======================================
@@ -224,13 +255,29 @@ body {
         font-size: 48px;
         letter-spacing: -0.09px;
     }
+
+    .dot {
+        margin-bottom: 30px;
+    }
+
+    .dot-space {
+        margin: 0 22px;
+    }
 }
 
 .one-customer {
+    padding: 5px 0;
     font-size: 13px;
+
+    & :hover {
+        transform: scale(1.1, 1.1);
+    }
+
+    p {
+        margin-top: 16px;
+    }
+
 }
-
-
 
 .text-oc-block {
     padding: 0 5vw;
@@ -242,17 +289,11 @@ body {
 
     p {
         padding: 0 1.5vw;
+        color: rgb(255, 255, 255);
     }
 
     .ti-9 {
         padding-top: 100px;
-    }
-
-    .text-69 {
-
-        p {
-            margin-bottom: 0;
-        }
     }
 }
 
@@ -276,13 +317,6 @@ body {
     }
 }
 
-.dot {
-    margin-bottom: 30px;
-}
-
-// .ti-quote-right {
-//     padding-top: 86px;
-// }
 
 //===============end our-customers============================== 
 footer {
@@ -299,7 +333,7 @@ footer {
             color: white;
             font-size: 10px;
             margin-bottom: 0;
-            padding-top: 50px;
+            padding-top: 5em;
         }
 
         span {

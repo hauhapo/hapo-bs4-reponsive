@@ -44,7 +44,7 @@
   }
 
   .logo {
-    margin-top: 30px;
+    margin-top: 25px;
   }
   .logo img {
     width: 144px;
@@ -55,7 +55,7 @@
     margin-top: 30px;
   }
   .header-icon-box .header-icon {
-    width: 100px;
+    width: 155px;
   }
   .header-icon-box .header-icon p,
 .header-icon-box .header-icon span {
@@ -75,7 +75,7 @@
 
   .text-header-mb {
     font-size: 12px;
-    padding-bottom: 15px;
+    margin-top: 2px;
   }
 
   .st-padding {
@@ -191,7 +191,7 @@
   }
 
   .header-top-right {
-    padding: 4% 2% 0 0;
+    padding: 15px 8px 0 23px;
   }
   .header-top-right .about-us span {
     font-weight: bold;
@@ -208,7 +208,7 @@
   }
 
   .logo {
-    margin-top: 0px;
+    margin-top: 8px;
   }
   .logo img {
     width: 96px;
@@ -216,15 +216,16 @@
   }
 
   .header-icon-box {
-    margin-top: 17px;
+    margin-top: 22px;
   }
   .header-icon-box .header-icon {
-    width: 100px;
+    width: 125px;
   }
   .header-icon-box .header-icon p,
 .header-icon-box .header-icon span {
-    font-size: 24px;
+    font-size: 18px;
     font-weight: lighter;
+    margin-bottom: 8px;
   }
 
   .st-padding {
@@ -312,8 +313,8 @@
     letter-spacing: -0.09px;
     padding-top: 25px;
   }
-  .our-customer .dot-mid {
-    margin: 0 20px;
+  .our-customer .dot-space {
+    margin: 0 23px;
   }
   .our-customer .dot {
     margin-bottom: 62px;
@@ -327,13 +328,15 @@
   .our-customer .text-oc-block {
     flex-direction: column;
     padding: 0 5vw;
-    height: 272px;
+    height: 240px;
   }
   .our-customer .text-oc-block i {
     font-size: 48px;
   }
   .our-customer .text-oc-block p {
     padding: 0;
+    margin-bottom: 0px;
+    opacity: 60%;
   }
   .our-customer .text-oc-block .para-oc {
     font-size: 14px;
@@ -344,10 +347,6 @@
   .our-customer .text-oc-block .ti-9 {
     padding: 0;
     padding-left: 88%;
-  }
-  .our-customer .text-oc-block .text-69 p {
-    margin-bottom: 0;
-    opacity: 60%;
   }
 
   .footer-mb {
