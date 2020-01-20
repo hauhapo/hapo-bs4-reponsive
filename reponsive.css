@@ -259,6 +259,14 @@
     line-height: 28px;
   }
 
+  .list-content-mb .dot-space-mb {
+    margin: 0 17px;
+  }
+
+  .one-content p {
+    font-size: 14px;
+  }
+
   .today-mb,
 .customer-mb {
     padding: 25px 15px;
