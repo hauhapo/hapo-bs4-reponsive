@@ -180,15 +180,19 @@
             p {
                 padding: 0;
             }
+
+            .para-oc {
+                font-size: 14px;
+            }
+
+
+            .ti-9 {
+                padding-top: 128px;
+            }
         }
 
-        .para-oc {
-            font-size: 14px;
-        }
 
-        .ti-9 {
-            padding-top: 128px;
-        }
+
     }
 
 
@@ -308,44 +312,9 @@
         }
     }
 
-    .today-mb {
 
-        padding: 25px 15px;
-
-        .title {
-
-            p {
-                font-size: 24px;
-            }
-
-        }
-
-        .italic-text {
-            p {
-                font-size: 13px;
-            }
-        }
-
-        .text-tb {
-
-            letter-spacing: 0.7px;
-        }
-
-
-        .image {
-            img {
-                height: 308px;
-                width: 100%;
-                margin-bottom: 20px;
-            }
-        }
-
-        .im {
-            width: 100%;
-        }
-    }
-
-   .customer-mb {
+    .today-mb,
+    .customer-mb {
 
         padding: 25px 15px;
 
@@ -432,27 +401,35 @@
             p {
                 padding: 0;
             }
-        }
 
-        .para-oc {
-            font-size: 14px;
-        }
-
-        .ti-6 {
-            margin-right: 100%;
-        }
-
-        .ti-9 {
-            padding-bottom: 12px;
-            padding-left: 88%;
-        }
-
-        .text-69 {
-
-            p {
-                margin-bottom: 0;
+            .para-oc {
+                font-size: 14px;
             }
+
+            .ti-6 {
+                margin-right: 100%;
+            }
+
+            // .ti-9 {
+            //     padding-bottom: 12px ;
+            //     padding-left: 88%;
+            // }
+
+            .ti-9 {
+                padding: 0;
+                padding-left: 88%;
+            }
+
+            .text-69 {
+
+                p {
+                    margin-bottom: 0;
+                }
+            }
+
         }
+
+
     }
 
     .footer-mb {

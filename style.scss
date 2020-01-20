@@ -200,12 +200,12 @@ body {
     }
 
     .para {
-    overflow: hidden;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    text-align: justify;
-    font-size: 0.677vw;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        text-align: justify;
+        font-size: 0.677vw;
     }
 }
 
@@ -242,6 +242,17 @@ body {
 
     p {
         padding: 0 1.5vw;
+    }
+
+    .ti-9 {
+        padding-top: 100px;
+    }
+
+    .text-69 {
+
+        p {
+            margin-bottom: 0;
+        }
     }
 }
 

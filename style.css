@@ -216,6 +216,12 @@ body {
 .text-oc-block p {
   padding: 0 1.5vw;
 }
+.text-oc-block .ti-9 {
+  padding-top: 100px;
+}
+.text-oc-block .text-69 p {
+  margin-bottom: 0;
+}
 
 .lr {
   font-size: 14px;

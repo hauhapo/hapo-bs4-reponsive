@@ -148,10 +148,10 @@
   .our-customer .text-oc-block p {
     padding: 0;
   }
-  .our-customer .para-oc {
+  .our-customer .text-oc-block .para-oc {
     font-size: 14px;
   }
-  .our-customer .ti-9 {
+  .our-customer .text-oc-block .ti-9 {
     padding-top: 128px;
   }
 
@@ -255,45 +255,30 @@
     line-height: 28px;
   }
 
-  .today-mb {
+  .today-mb,
+.customer-mb {
     padding: 25px 15px;
   }
-  .today-mb .title p {
+  .today-mb .title p,
+.customer-mb .title p {
     font-size: 24px;
   }
-  .today-mb .italic-text p {
+  .today-mb .italic-text p,
+.customer-mb .italic-text p {
     font-size: 13px;
   }
-  .today-mb .text-tb {
+  .today-mb .text-tb,
+.customer-mb .text-tb {
     letter-spacing: 0.7px;
   }
-  .today-mb .image img {
+  .today-mb .image img,
+.customer-mb .image img {
     height: 308px;
     width: 100%;
     margin-bottom: 20px;
   }
-  .today-mb .im {
-    width: 100%;
-  }
-
-  .customer-mb {
-    padding: 25px 15px;
-  }
-  .customer-mb .title p {
-    font-size: 24px;
-  }
-  .customer-mb .italic-text p {
-    font-size: 13px;
-  }
-  .customer-mb .text-tb {
-    letter-spacing: 0.7px;
-  }
-  .customer-mb .image img {
-    height: 308px;
-    width: 100%;
-    margin-bottom: 20px;
-  }
-  .customer-mb .im {
+  .today-mb .im,
+.customer-mb .im {
     width: 100%;
   }
 
@@ -341,17 +326,17 @@
   .our-customer .text-oc-block p {
     padding: 0;
   }
-  .our-customer .para-oc {
+  .our-customer .text-oc-block .para-oc {
     font-size: 14px;
   }
-  .our-customer .ti-6 {
+  .our-customer .text-oc-block .ti-6 {
     margin-right: 100%;
   }
-  .our-customer .ti-9 {
-    padding-bottom: 12px;
+  .our-customer .text-oc-block .ti-9 {
+    padding: 0;
     padding-left: 88%;
   }
-  .our-customer .text-69 p {
+  .our-customer .text-oc-block .text-69 p {
     margin-bottom: 0;
   }
 
