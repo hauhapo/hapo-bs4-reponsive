@@ -193,6 +193,9 @@
   .header-top-right {
     padding: 4% 2% 0 0;
   }
+  .header-top-right .about-us span {
+    font-weight: bold;
+  }
   .header-top-right .sign-in {
     font-size: 12px;
     color: #8bc34a;
@@ -220,7 +223,7 @@
   }
   .header-icon-box .header-icon p,
 .header-icon-box .header-icon span {
-    font-size: 18px;
+    font-size: 24px;
     font-weight: lighter;
   }
 
@@ -238,7 +241,7 @@
   }
 
   .text-header-mb {
-    font-size: 12px;
+    font-size: 9px;
     padding-bottom: 0px;
   }
 
@@ -309,6 +312,12 @@
     letter-spacing: -0.09px;
     padding-top: 25px;
   }
+  .our-customer .dot-mid {
+    margin: 0 20px;
+  }
+  .our-customer .dot {
+    margin-bottom: 62px;
+  }
   .our-customer .list-customer {
     padding: 0 2.5vw;
   }
@@ -338,6 +347,7 @@
   }
   .our-customer .text-oc-block .text-69 p {
     margin-bottom: 0;
+    opacity: 60%;
   }
 
   .footer-mb {
@@ -352,12 +362,12 @@
     padding-top: 20px;
   }
   .footer-mb .footer-header p {
-    color: white;
+    color: #d0d8dc;
     font-size: 12px;
     color: #8bc34a;
   }
   .footer-mb .footer-header a {
-    color: white;
+    color: #d0d8dc;
     font-size: 10px;
   }
   .footer-mb .footer-icon {
@@ -372,12 +382,12 @@
   }
   .footer-mb .footer-end a {
     text-decoration: none;
-    color: white;
+    color: #d0d8dc;
     font-size: 10px;
     letter-spacing: -0.02;
   }
   .footer-mb .footer-end span {
-    color: #8bc34a;
+    color: #d0d8dc;
     font-size: 10px;
   }
 }
