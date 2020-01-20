@@ -151,8 +151,8 @@
   .our-customer .para-oc {
     font-size: 14px;
   }
-  .our-customer .ti-quote-right {
-    padding-top: 124px;
+  .our-customer .ti-9 {
+    padding-top: 128px;
   }
 
   footer {
@@ -276,6 +276,27 @@
     width: 100%;
   }
 
+  .customer-mb {
+    padding: 25px 15px;
+  }
+  .customer-mb .title p {
+    font-size: 24px;
+  }
+  .customer-mb .italic-text p {
+    font-size: 13px;
+  }
+  .customer-mb .text-tb {
+    letter-spacing: 0.7px;
+  }
+  .customer-mb .image img {
+    height: 308px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .customer-mb .im {
+    width: 100%;
+  }
+
   .carousel-indicators {
     margin-top: 15px;
   }
@@ -328,7 +349,7 @@
   }
   .our-customer .ti-9 {
     padding-bottom: 12px;
-    padding-left: 86%;
+    padding-left: 88%;
   }
   .our-customer .text-69 p {
     margin-bottom: 0;

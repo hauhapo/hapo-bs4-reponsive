@@ -186,8 +186,8 @@
             font-size: 14px;
         }
 
-        .ti-quote-right {
-            padding-top: 124px;
+        .ti-9 {
+            padding-top: 128px;
         }
     }
 
@@ -345,6 +345,43 @@
         }
     }
 
+   .customer-mb {
+
+        padding: 25px 15px;
+
+        .title {
+
+            p {
+                font-size: 24px;
+            }
+
+        }
+
+        .italic-text {
+            p {
+                font-size: 13px;
+            }
+        }
+
+        .text-tb {
+
+            letter-spacing: 0.7px;
+        }
+
+
+        .image {
+            img {
+                height: 308px;
+                width: 100%;
+                margin-bottom: 20px;
+            }
+        }
+
+        .im {
+            width: 100%;
+        }
+    }
+
     .carousel-indicators {
         margin-top: 15px;
     }
@@ -407,7 +444,7 @@
 
         .ti-9 {
             padding-bottom: 12px;
-            padding-left: 86%;
+            padding-left: 88%;
         }
 
         .text-69 {
