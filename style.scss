@@ -51,6 +51,7 @@ body {
     .about-us {
         margin-right: 26px;
         box-shadow: none;
+        letter-spacing: 1px;
 
         span {
             font-size: 12px;
@@ -339,7 +340,7 @@ footer {
             color: white;
             font-size: 10px;
             margin-bottom: 0;
-            padding-top: 5em;
+            padding-top: 38px;
         }
 
         span {
@@ -352,7 +353,7 @@ footer {
 
     .footer-icon {
         width: 142px;
-        margin-top: 80px;
+        margin-top: 66px;
 
         i {
             color: #8bc34a;
@@ -361,7 +362,7 @@ footer {
     }
 
     .footer-text {
-        margin-top: 30px;
+        margin-top: 14px;
 
         a {
             text-decoration: none;

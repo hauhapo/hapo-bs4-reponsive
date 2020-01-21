@@ -93,29 +93,35 @@
     line-height: 28px;
   }
 
-  .today-mb, .customer-mb {
+  .today-mb,
+.customer-mb {
     padding: 51px 15px;
   }
-  .today-mb .title p, .customer-mb .title p {
+  .today-mb .title p,
+.customer-mb .title p {
     font-size: 36px;
     margin-bottom: 15px;
   }
-  .today-mb .italic-text p, .customer-mb .italic-text p {
+  .today-mb .italic-text p,
+.customer-mb .italic-text p {
     font-size: 14px;
     margin-bottom: 25px;
   }
-  .today-mb .text-tb, .customer-mb .text-tb {
+  .today-mb .text-tb,
+.customer-mb .text-tb {
     font-size: 13px;
     line-height: 20px;
   }
-  .today-mb .image img, .customer-mb .image img {
-    height: 238px;
+  .today-mb .image img,
+.customer-mb .image img {
     width: 100%;
   }
-  .today-mb .im, .customer-mb .im {
+  .today-mb .im,
+.customer-mb .im {
     width: 100%;
   }
-  .today-mb .para, .customer-mb .para {
+  .today-mb .para,
+.customer-mb .para {
     overflow: hidden;
     text-align: justify;
     font-size: 13px;
@@ -202,6 +208,7 @@
   }
   .header-top-right .about-us span {
     font-weight: bold;
+    letter-spacing: 1px;
   }
   .header-top-right .sign-in {
     font-size: 12px;
@@ -218,8 +225,8 @@
     margin-top: 8px;
   }
   .logo img {
-    width: 138px;
-    height: 33.39px;
+    width: 96px;
+    height: 25px;
   }
 
   .header-icon-box {
@@ -303,7 +310,6 @@
   }
   .today-mb .image img,
 .customer-mb .image img {
-    height: 308px;
     width: 100%;
     margin-bottom: 20px;
   }
