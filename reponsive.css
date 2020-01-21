@@ -142,6 +142,7 @@
   }
   .our-customer .list-customer .one-customer {
     padding: 0 2.9%;
+    padding: 5px 0;
   }
   .our-customer .text-oc-block {
     padding: 0 5vw;
@@ -346,6 +347,7 @@
   }
   .our-customer .list-customer .one-customer {
     padding: 0 4%;
+    padding-top: 5px;
   }
   .our-customer .text-oc-block {
     flex-direction: column;
