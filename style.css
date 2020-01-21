@@ -39,6 +39,7 @@ body {
 }
 .header-top-right .about-us {
   margin-right: 26px;
+  box-shadow: none;
 }
 .header-top-right .about-us span {
   font-size: 12px;
@@ -51,17 +52,17 @@ body {
   height: 36px;
   width: 82px;
   line-height: 18px;
+  box-shadow: none;
 }
 .header-top-right .sign-in span {
   font-size: 12px;
 }
+.header-top-right .sign-in span:hover {
+  color: black;
+}
 
 .logo {
   margin-top: 165px;
-}
-.logo img {
-  width: 256px;
-  height: 77px;
 }
 
 .header-icon-box {
@@ -93,13 +94,8 @@ body {
   box-shadow: 1px 1.5px 5px #888888;
   border: none;
 }
-.start-now:hover {
-  background-color: red;
-  background: linear-gradient(330deg, #e05252 0%, #99e052 25%, #52e0e0 50%, #9952e0 75%, #e05252 100%);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  border: 2px solid #8bc34a;
+.start-now:hover span {
+  color: black;
 }
 .start-now span {
   height: 21px;
@@ -280,10 +276,6 @@ body {
 footer {
   padding: 45px 20.3%;
   background-color: #39474e;
-}
-footer img {
-  height: 29px;
-  width: 96px;
 }
 footer .footer-block p {
   color: white;

@@ -11,6 +11,7 @@
     footer,
     .today-mb,
     .list-content,
+    .customer-mb
         {
         display: block;
     }
@@ -20,12 +21,12 @@
     }
 
     .ti-color {
-        font-size: 13px;
+        font-size: 18px;
         margin-right: 12px;
     }
 
     .ti-icon {
-        font-size: 26px;
+        font-size: 30px;
     }
 
     .banner {
@@ -56,13 +57,14 @@
         margin-top: 25px;
 
         img {
-            width: 144px;
-            height: 43px;
+            width: 138px;
+            height: 33.39px
         }
+
     }
 
     .header-icon-box {
-        margin-top: 30px;
+        margin-top: 40px;
 
         .header-icon {
             width: 155px;
@@ -108,13 +110,14 @@
     }
 
 
-    .today-mb {
-        padding: 50px 15px;
+    .today-mb, .customer-mb {
+        padding: 51px 15px;
 
         .title {
 
             p {
                 font-size: 36px;
+                margin-bottom: 15px;
             }
 
         }
@@ -122,6 +125,7 @@
         .italic-text {
             p {
                 font-size: 14px;
+                margin-bottom: 25px;
             }
         }
 
@@ -140,17 +144,23 @@
         .im {
             width: 100%;
         }
+
+        .para {
+            overflow: hidden;
+            // display: -webkit-box;
+            // -webkit-line-clamp: 2;
+            // -webkit-box-orient: vertical;
+            text-align: justify;
+            font-size: 13px;
+            align-item: center;
+            height: 56px;
+        }
     }
 
     .box-shadow {
         box-shadow: 0 4px 8px #888888;
     }
 
-    .text-member {
-        font-size: 13px;
-        height: 60px;
-        overflow: hidden;
-    }
 
     .our-customer {
         background-image: url(./images/our-customer-mb.png);
@@ -201,11 +211,316 @@
 
     footer {
         padding: 38px 30px;
+
     }
 }
 
+// ===================================================end 768px screen=====================================================================================
+@media only screen and (min-width: 415px) and (max-width: 480px) {
 
-@media only screen and (max-width: 480px) {
+    footer,
+    .today,
+    .member,
+    .list-content,
+    .customer-mb {
+        display: none;
+    }
+
+    .today-mb,
+    .list-content-mb,
+    .footer-mb {
+        display: block;
+    }
+
+    .ti-color {
+        font-size: 13px;
+        margin-right: 13px;
+    }
+
+    .ti-icon {
+        padding-top: 3px;
+        font-size: 20px;
+    }
+
+    .banner {
+        width: 100vw;
+        height: 266px;
+        padding: 0 2%;
+
+        background: {
+            image: url(./images/banner-mb.png);
+            size: cover;
+        }
+    }
+
+    .header-top-right {
+        padding: 15px 8px 0 23px;
+
+        .about-us {
+            span {
+                font-weight: bold;
+            }
+        }
+
+        .sign-in {
+            font-size: 12px;
+            color: #8bc34a;
+            border-radius: 100px;
+            border: 2px solid #8bc34a;
+            letter-spacing: 1px;
+        }
+
+        .about-us {
+            font-size: 12px;
+        }
+    }
+
+    .logo {
+        margin-top: 8px;
+
+        img {
+            width: 138px;
+            height: 33.39px;
+        }
+    }
+
+    .header-icon-box {
+        margin-top: 22px;
+
+        .header-icon {
+            width: 125px;
+
+            p,
+            span {
+                font-size: 18px;
+                font-weight: lighter;
+                margin-bottom: 8px;
+            }
+        }
+    }
+
+    .st-padding {
+        padding-top: 0;
+
+        .start-now {
+            height: 40px;
+            width: 144px;
+
+            span {
+                font-size: 14px;
+                letter-spacing: 1.17px;
+                line-height: 28px;
+            }
+        }
+    }
+
+
+    .text-header-mb {
+        font-size: 9px;
+        padding-bottom: 0px;
+    }
+
+    .st-padding {
+        padding-top: 0px;
+
+        .start-now {
+            height: 40px;
+            width: 144px;
+
+            span {
+                font-size: 14px;
+                letter-spacing: 1.17px;
+                line-height: 28px;
+            }
+        }
+    }
+
+    .list-content-mb {
+        height: 322px;
+
+        .dot-space-mb {
+            margin: 0 17px;
+        }
+    }
+
+    .one-content {
+
+        p {
+            font-size: 14px;
+            margin-bottom: 25px;
+        }
+    }
+
+    .dot-mb {
+        margin-bottom: 46px;
+    }
+
+
+    .today-mb,
+    .customer-mb {
+
+        padding: 30px 15px;
+
+        .title {
+
+            p {
+                margin-bottom: 5px;
+                font-size: 24px;
+            }
+
+        }
+
+        .italic-text {
+            p {
+                margin-bottom: 10px;
+                font-size: 13px;
+            }
+        }
+
+        .text-tb {
+            margin-bottom: 20px;
+            letter-spacing: 0.7px;
+        }
+
+
+        .image {
+            img {
+                height: 308px;
+                width: 100%;
+                margin-bottom: 20px;
+            }
+        }
+
+        .im {
+            width: 100%;
+        }
+    }
+
+    .carousel-indicators {
+        margin-top: 15px;
+    }
+
+    .box-shadow {
+        box-shadow: 0 4px 8px #888888;
+    }
+
+    .text-member {
+
+        height: 60px;
+        overflow: hidden;
+    }
+
+    .our-customer {
+        background-image: url(./images/our-customer-tb.png);
+        padding: 0 2%;
+        repeat: no-repeat;
+
+        .oc-title {
+            font-size: 24px;
+            letter-spacing: -0.09px;
+            padding-top: 25px;
+        }
+
+        .dot-space {
+            margin: 0 23px;
+        }
+
+        .dot {
+            margin-bottom: 62px;
+        }
+
+        .list-customer {
+
+            padding: 0 2.5vw;
+
+            .one-customer {
+                padding: 0 4%;
+            }
+        }
+
+        .text-oc-block {
+            flex-direction: column;
+            padding: 0 5vw;
+            height: 240px;
+
+            i {
+                font-size: 48px;
+            }
+
+            p {
+                padding: 0;
+                margin-bottom: 0px;
+                opacity: 60%;
+            }
+
+            .para-oc {
+                font-size: 14px;
+            }
+
+            .ti-6 {
+                margin-right: 100%;
+            }
+
+            .ti-9 {
+                padding: 0;
+                padding-left: 88%;
+            }
+        }
+    }
+
+    .footer-mb {
+        padding: 20px 15px;
+        background-color: #39474e;
+
+        img {
+            height: 24px;
+            width: 90px;
+        }
+
+        .footer-header {
+            padding-top: 20px;
+
+            p {
+                color: rgb(208 216 220);
+                font-size: 12px;
+                color: #8bc34a
+            }
+
+            a {
+                color: rgb(208 216 220);
+                font-size: 10px;
+            }
+        }
+
+        .footer-icon {
+            width: 100px;
+
+            i {
+                color: #8bc34a;
+                font-size: 10px;
+            }
+        }
+
+        .footer-end {
+            margin-top: 20px;
+
+            a {
+                text-decoration: none;
+                color: rgb(208 216 220);
+                font-size: 10px;
+                letter-spacing: -0.02;
+            }
+
+            span {
+                color: rgb(208 216 220);
+                font-size: 10px;
+            }
+        }
+    }
+}
+
+// =======================================================480px===================================================================
+@media screen and (max-width: 414px) {
 
     footer,
     .today,
@@ -267,8 +582,8 @@
         margin-top: 8px;
 
         img {
-            width: 96px;
-            height: 29px;
+            width: 138px;
+            height: 33.39px;
         }
     }
 
@@ -351,7 +666,7 @@
 
         .italic-text {
             p {
-                font-size: 13px;
+                font-size: 11px;
             }
         }
 
@@ -416,7 +731,7 @@
             padding: 0 2.5vw;
 
             .one-customer {
-                padding: 0 4%;
+                padding: 0 2.5%;
             }
         }
 
@@ -446,6 +761,7 @@
             .ti-9 {
                 padding: 0;
                 padding-left: 88%;
+                margin-bottom: 20px;
             }
         }
     }
@@ -498,5 +814,47 @@
                 font-size: 10px;
             }
         }
+    }
+}
+
+// @media screen and (max-width: 414px) {
+
+//     .our-customer {
+//         .list-customer {
+
+//             padding: 0 2.5vw;
+
+//             .one-customer {
+//                 padding: 0 2.5%;
+//             }
+//         }
+//     }
+
+//     .ti-9 {
+//         margin-bottom: 20px;
+//     }
+// }
+
+
+@media screen and (max-width: 375px) {
+
+    .list-content {
+        padding: 0 4%;
+    }
+
+
+    .our-customer {
+        .list-customer {
+
+            padding: 0 2.5vw;
+
+            .one-customer {
+                padding: 0 1.75%;
+            }
+        }
+    }
+
+    .ti-9 {
+        margin-bottom: 32px;
     }
 }
